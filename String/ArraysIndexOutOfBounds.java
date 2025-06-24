@@ -32,7 +32,7 @@ public class ArraysIndexOutOfBounds {
         System.out.println("\nHandling exception...");
         try {
             System.out.println(str[str.length + 1]);
-        } catch (StringIndexOutOfBoundsException e) {
+        } catch (ArrayIndexOutOfBoundsException e) {
             System.out.println("Exception caught: " + e.getMessage());
             System.out.println("Cannot access index beyond string length");
         }

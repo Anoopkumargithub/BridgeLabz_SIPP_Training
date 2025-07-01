@@ -48,7 +48,7 @@ public class libraryManagement {
         
         System.out.println("Enter publication Year:");
         int publicationYear = sc.nextInt();
-        sc.nextLine(); // consume newline
+        sc.nextLine(); 
         
         System.out.println("Enter Author name:");
         String authorName = sc.nextLine();
